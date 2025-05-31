@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35027.167
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Weather", "Weather.csproj", "{1DC5D692-396D-4545-94F5-57846655FA47}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Identity", "..\Identity\Identity.csproj", "{822BAD9E-1685-4CDB-9A8B-0325CB42CA62}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Gateway", "..\Gateway\Gateway.csproj", "{293E8E68-CF82-4058-A72E-7811FBC4BFBC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SharedLibrary", "..\SharedLibrary\SharedLibrary.csproj", "{44D0D729-BB57-4770-817C-E18478525BA4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JWTAuthenticationAPI", "..\JWTAuthenticationAPI\JWTAuthenticationAPI.csproj", "{51CF61B9-A86C-4A1A-9535-32DA3366CEF7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JwtKeyGenerator", "..\JwtKeyGenerator\JwtKeyGenerator.csproj", "{4C5BA69F-4F97-4923-8451-172220721678}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1DC5D692-396D-4545-94F5-57846655FA47}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1DC5D692-396D-4545-94F5-57846655FA47}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1DC5D692-396D-4545-94F5-57846655FA47}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1DC5D692-396D-4545-94F5-57846655FA47}.Release|Any CPU.Build.0 = Release|Any CPU
+		{822BAD9E-1685-4CDB-9A8B-0325CB42CA62}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{822BAD9E-1685-4CDB-9A8B-0325CB42CA62}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{822BAD9E-1685-4CDB-9A8B-0325CB42CA62}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{822BAD9E-1685-4CDB-9A8B-0325CB42CA62}.Release|Any CPU.Build.0 = Release|Any CPU
+		{293E8E68-CF82-4058-A72E-7811FBC4BFBC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{293E8E68-CF82-4058-A72E-7811FBC4BFBC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{293E8E68-CF82-4058-A72E-7811FBC4BFBC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{293E8E68-CF82-4058-A72E-7811FBC4BFBC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{44D0D729-BB57-4770-817C-E18478525BA4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44D0D729-BB57-4770-817C-E18478525BA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44D0D729-BB57-4770-817C-E18478525BA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44D0D729-BB57-4770-817C-E18478525BA4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{51CF61B9-A86C-4A1A-9535-32DA3366CEF7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51CF61B9-A86C-4A1A-9535-32DA3366CEF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51CF61B9-A86C-4A1A-9535-32DA3366CEF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51CF61B9-A86C-4A1A-9535-32DA3366CEF7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C5BA69F-4F97-4923-8451-172220721678}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C5BA69F-4F97-4923-8451-172220721678}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C5BA69F-4F97-4923-8451-172220721678}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C5BA69F-4F97-4923-8451-172220721678}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {085BDF31-82EE-4AEB-8D0B-436E7A23D686}
+	EndGlobalSection
+EndGlobal
